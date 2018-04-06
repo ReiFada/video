@@ -463,8 +463,8 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*# [ninguem] #*/
-#user-rollover.id-000000 .level:after {
+       /*# [ReiFada] #*/
+#user-rollover.id-36860967 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -769,8 +769,8 @@
     padding-right: 4px;
     position: relative;
 }
-		/*# ninguem #*/
-#chat [data-cid^='000000-'] .un:before {
+		/*# ReiFada #*/
+#chat [data-cid^='36860967-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
