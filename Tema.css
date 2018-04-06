@@ -1,4 +1,4 @@
-# /*---- CSS By:Koryoshe ----*/
+/*---- CSS By:Koryoshe ----*/
 
 @keyframes fadein {
 	from {opacity: 0;}
@@ -452,8 +452,8 @@
 }
 	/*## [TAG-VIP] ##*/
 	
-       /*# [ninguem] #*/
-#user-rollover.id-000000 .level:after {
+       /*# [Mateusk] #*/
+#user-rollover.id-32937367 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -759,8 +759,8 @@
     position: relative;
 }
         /*# [TAG-VIP] #*/
-		/*# ninguem #*/
-#chat [data-cid^='000000-'] .un:before {
+		/*# Mateusk #*/
+#chat [data-cid^='32937367-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
