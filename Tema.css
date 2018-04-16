@@ -6,13 +6,13 @@
 }
 /*#### [TEMA DE FUNDO] ####*/
 .room-background {
-	background: ;
+	background: "https://giant.gfycat.com/GleamingSeriousAlbino.gif" ;
 	width: ;
 	height: ;
 }
 /*#### [ICONE DA SALA] ####*/
 .icon-room {
-    background: url( ) no-repeat;
+    background: url("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif" ) no-repeat;
     width: 38px !important;
     height: 38px !important;
     top: 8px !important;
@@ -307,8 +307,8 @@
 	background: ;
 	box-shadow: ;
 }
-#vote i.icon.icon-woot-disabled {
-    background-image: url( );
+#vote i.icon.woot-disabled {
+    background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -326,11 +326,11 @@
     background: !important;
     box-shadow: !important;
 }
-#woot i.icon {
-    background-image: url( );
+#woot i.icon.icon-woot-disabled {
+    background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif);
 }
-#vote i.icon.icon-grab-disabled {
-    background-image: url( );
+#vote i.icon.grab-disabled {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif );
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -343,11 +343,11 @@
     background: !important;
     box-shadow: !important;
 }
-#grab i.icon {
-    background-image: url( );
+#grab i.icon.icon-grab-disabled {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif );
 }
-#vote i.icon.icon-meh-disabled {
-    background-image: url( );
+#vote i.icon.meh-disabled {
+    background-image: url(https://vignette.wikia.nocookie.net/eddsworld/images/0/0d/Dll.gif/revision/latest?cb=20161208025236&path-prefix=es);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -361,8 +361,8 @@
     background: !important;
     box-shadow: !important;
 }
-#meh i.icon {
-    background-image: url( );
+#meh i.icon.icon-meh-disabled  {
+    background-image: url(https://vignette.wikia.nocookie.net/eddsworld/images/0/0d/Dll.gif/revision/latest?cb=20161208025236&path-prefix=es);
 }
 /*#### [USER-ROLLOVER] ####*/
 #user-rollover {
@@ -439,8 +439,8 @@
        
 	/*## [TAG-BOT] ##*/
 	   
-        /*# [Ninguem] #*/
-#user-rollover.id-000000 .level:after {
+        /*# [ReiFada] #*/
+#user-rollover.id-36860967 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[BOT]";
@@ -456,15 +456,15 @@
 #user-rollover.id-32937367 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[VIP]";
+    content: "[BLOOM]";
     display: inline-block;
-    color: #e2da24!important;
+    color: #de3be5!important;
     font-weight: bold;
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*# [ReiFada] #*/
-#user-rollover.id-36860967 .level:after {
+       /*# [ninguem] #*/
+#user-rollover.id-000000 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -474,11 +474,11 @@
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-        /*# [Ałlαhu ♂] #*/
-#user-rollover.id-4453331 .level:after {
+        /*# [ninguem] #*/
+#user-rollover.id-000000 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[VIPÃO DA PORRA];
+    content: "[VIP]";
     display: inline-block;
     color: #e2da24!important;
     font-weight: bold;
@@ -748,8 +748,8 @@
 
     /*## [BOT] ##*/
 	
-        /*# [ninguem] #*/
-#chat [data-cid^='000000-'] .un:before {
+        /*# [ReiFada] #*/
+#chat [data-cid^='36860967-'] .un:before {
     content: '[BOT]';
     top: 0px;
     Left: 0px;
@@ -761,6 +761,16 @@
         /*# [TAG-VIP] #*/
 		/*# Mateusk #*/
 #chat [data-cid^='32937367-'] .un:before {
+    content: '[BLOOM]';
+    top: 0px;
+    Left: 0px;
+	color: #de3be5!important;
+    padding-left: 2px;
+    padding-right: 4px;
+    position: relative;
+}
+		/*# ninguem #*/
+#chat [data-cid^='000000-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
@@ -769,19 +779,9 @@
     padding-right: 4px;
     position: relative;
 }
-		/*# ReiFada #*/
-#chat [data-cid^='36860967-'] .un:before {
+		/*# Percyvall #*/
+#chat [data-cid^='29319764-'] .un:before {
     content: '[VIP]';
-    top: 0px;
-    Left: 0px;
-	color: #e2da24!important;
-    padding-left: 2px;
-    padding-right: 4px;
-    position: relative;
-}
-		/*# Ałlαhu ♂ #*/
-#chat [data-cid^='4453331-'] .un:before {
-    content: '[VIPÃO DA PORRA]';
     top: 0px;
     Left: 0px;
 	color: #e2da24!important;
