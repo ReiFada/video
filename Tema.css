@@ -6,13 +6,13 @@
 }
 /*#### [TEMA DE FUNDO] ####*/
 .room-background {
-	background: "https://giant.gfycat.com/GleamingSeriousAlbino.gif" ;
+	background: ;
 	width: ;
 	height: ;
 }
 /*#### [ICONE DA SALA] ####*/
 .icon-room {
-    background: url("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif" ) no-repeat;
+    background: url(https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif ) no-repeat;
     width: 38px !important;
     height: 38px !important;
     top: 8px !important;
@@ -307,8 +307,8 @@
 	background: ;
 	box-shadow: ;
 }
-#vote i.icon.icon-woot-disabled {
-    background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif);
+#vote i.icon.icon-disabled {
+    background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif );
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -329,8 +329,8 @@
 #woot i.icon {
     background-image: url( );
 }
-#vote i.icon.icon-grab-disabled {
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif );
+#vote i.icon.icon-disabled {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -346,8 +346,8 @@
 #grab i.icon {
     background-image: url( );
 }
-#vote i.icon.icon-meh-disabled {
-    background-image: url(https://vignette.wikia.nocookie.net/eddsworld/images/0/0d/Dll.gif/revision/latest?cb=20161208025236&path-prefix=es);
+#vote i.icon.icon-disabled {
+    background-image: url(https://vignette.wikia.nocookie.net/eddsworld/images/0/0d/Dll.gif/revision/latest?cb=20161208025236&path-prefix=es );
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -439,8 +439,8 @@
        
 	/*## [TAG-BOT] ##*/
 	   
-        /*# [ReiFada] #*/
-#user-rollover.id-36860967 .level:after {
+        /*# [Ninguem] #*/
+#user-rollover.id-000000 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[BOT]";
@@ -456,15 +456,15 @@
 #user-rollover.id-32937367 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
-    content: "[BLOOM]";
+    content: "[VIP]";
     display: inline-block;
-    color: #de3be5!important;
+    color: #e2da24!important;
     font-weight: bold;
     margin: 0px 0px 0 20px!important;
     padding: 0 0 0 18px;
 }
-       /*# [ninguem] #*/
-#user-rollover.id-000000 .level:after {
+       /*# [playments] #*/
+#user-rollover.id-4516124 .level:after {
     background-image: url(none);
     background-repeat: no-repeat;
     content: "[VIP]";
@@ -748,8 +748,8 @@
 
     /*## [BOT] ##*/
 	
-        /*# [ReiFada] #*/
-#chat [data-cid^='36860967-'] .un:before {
+        /*# [ninguem] #*/
+#chat [data-cid^='000000-'] .un:before {
     content: '[BOT]';
     top: 0px;
     Left: 0px;
@@ -760,17 +760,17 @@
 }
         /*# [TAG-VIP] #*/
 		/*# Mateusk #*/
-#chat [data-cid^='32937367-'] .un:before {
-    content: '[BLOOM]';
+#chat [data-cid^='32937367'] .un:before {
+    content: '[VIP]';
     top: 0px;
     Left: 0px;
-	color: #de3be5!important;
+	color: #e2da24!important;
     padding-left: 2px;
     padding-right: 4px;
     position: relative;
 }
-		/*# ninguem #*/
-#chat [data-cid^='000000-'] .un:before {
+		/*# playments #*/
+#chat [data-cid^='4516124-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
