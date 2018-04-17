@@ -272,7 +272,7 @@
 }
 .bar-value {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 20px;
     font-family: -webkit-body;
     color: lightslategrey;
 }
@@ -284,7 +284,7 @@
 	background: ;
 }
 .pop-menu .bar-divider {
-	background: ;
+	background:  ;
 }
 .pop-menu .menu ul {
 	background: ;
@@ -532,7 +532,7 @@
 /*#### [CHAT] ####*/
 #chat-header {
 	background: rgba(30,35,40,0.7);
-	border: none !important;
+	border: #000000 !important;
 }
 #chat-messages::-webkit-scrollbar, .dropdown dd::-webkit-scrollbar, #woot-rs-list::-webkit-scrollbar, #grab-rs-list::-webkit-scrollbar, #meh-rs-list::-webkit-scrollbar, .dialog::-webkit-scrollbar {
     width: 7px !important;
