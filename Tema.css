@@ -12,7 +12,7 @@
 }
 /*#### [ICONE DA SALA] ####*/
 .icon-room {
-    background: url(https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif ) no-repeat;
+    background: url("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif" ) no-repeat;
     width: 38px !important;
     height: 38px !important;
     top: 8px !important;
@@ -278,7 +278,7 @@
 }
 .pop-menu, .pop-menu .bar {
 	border-radius: 20px 20px 0 0;
-	background: transparent;
+	background: #000000;
 }
 .pop-menu .bar {
 	background: ;
@@ -307,8 +307,8 @@
 	background: ;
 	box-shadow: ;
 }
-#vote i.icon.icon-disabled {
-    background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif );
+#vote i.icon.icon-woot-disabled {
+    background-image: url( );
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -329,8 +329,8 @@
 #woot i.icon {
     background-image: url(http://p3.storage.canalblog.com/39/07/1313059/117622772_o.gif );
 }
-#vote i.icon.icon-disabled {
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif);
+#vote i.icon.icon-grab-disabled {
+    background-image: url( );
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -344,10 +344,10 @@
     box-shadow: !important;
 }
 #grab i.icon {
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/65ea2034559659.56d57de06cea2.gif );
 }
-#vote i.icon.icon-disabled {
-    background-image: url(https://vignette.wikia.nocookie.net/eddsworld/images/0/0d/Dll.gif/revision/latest?cb=20161208025236&path-prefix=es );
+#vote i.icon.icon-meh-disabled {
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -760,7 +760,7 @@
 }
         /*# [TAG-VIP] #*/
 		/*# Mateusk #*/
-#chat [data-cid^='32937367'] .un:before {
+#chat [data-cid^='32937367-'] .un:before {
     content: '[VIP]';
     top: 0px;
     Left: 0px;
